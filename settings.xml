@@ -8,13 +8,21 @@
 	</pluginGroups>
 
 	<proxies>
+		<!--<proxy>
+			<id>optional</id>
+			<active>true</active>
+			<protocol>http</protocol>
+			<host>127.0.0.1</host>
+			<port>8889</port>
+			<nonProxyHosts>localhost|aliyun.com</nonProxyHosts>
+		</proxy>-->
 	</proxies>
 
 	<servers>
 	</servers>
 
 	<mirrors>
-		<mirror>
+		<!--<mirror>
 			<id>nexus-aliyun</id>
 			<mirrorOf>*,!jeecg,!jeecg-snapshots,!mapr-releases</mirrorOf>
 			<name>Nexus aliyun</name>
@@ -26,7 +34,7 @@
 			<mirrorOf>mapr-releases</mirrorOf>
 			<name>mapr-releases</name>
 			<url>https://maven.aliyun.com/repository/mapr-public</url>
-		</mirror>
+		</mirror>-->
 
 	</mirrors>
 
