@@ -144,3 +144,9 @@ describes [how to contribute to Apache Flink](https://flink.apache.org/contribut
 
 Apache Flink is an open source project of The Apache Software Foundation (ASF). The Apache Flink
 project originated from the [Stratosphere](http://stratosphere.eu) research project.
+
+build command
+
+```bash
+proxychains ./mvnw clean package -DskipTests --settings=./settings.xml
+```
